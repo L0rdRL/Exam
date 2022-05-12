@@ -1,0 +1,5 @@
+find -type f -name "*.sh" -printf "%f\n" | cut -d '.' -f 1 | sort -r
+
+
+
+
